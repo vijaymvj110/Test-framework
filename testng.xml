@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+   <suite name="VnH test">
+   
+    <test name="Login page validation">
+    <classes>
+    <class name="testCases.Login"></class>
+    </classes>
+    </test>
+    <test name="job register validation">
+    <classes>
+    <class name="testCases.JobRegister"></class>
+    </classes>
+    </test>
+    <test name="Candidate register validation">
+    <classes>
+    <class name="testCases.Candidateregister"></class>
+    </classes>
+    </test>
+    <test name="Interview schedule validation">
+    <classes>
+    <class name="testCases.Interviewschedule"></class>
+    </classes>
+    </test>
+    <test name="Setting section validation">
+    <classes>
+    <class name="testCases.Setting"></class>
+    </classes>
+    </test>
+    </suite>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [VnH test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Candidate register validation(failed)">
+    <classes>
+      <class name="testCases.Candidateregister">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+          <include name="registercandidate"/>
+        </methods>
+      </class> <!-- testCases.Candidateregister -->
+    </classes>
+  </test> <!-- Candidate register validation(failed) -->
+  <test thread-count="5" name="Interview schedule validation(failed)">
+    <classes>
+      <class name="testCases.Interviewschedule">
+        <methods>
+          <include name="scheduleinterview"/>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.Interviewschedule -->
+    </classes>
+  </test> <!-- Interview schedule validation(failed) -->
+</suite> <!-- Failed suite [VnH test] -->
