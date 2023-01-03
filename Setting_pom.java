@@ -1,11 +1,9 @@
-package pageObjectsModel;
+package pageObjectModel;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Setting_pom {
-	
 	@FindBy(xpath="/html/body/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div/div[4]/ul/li[2]/a/span")
 	public static WebElement SettingTab;
 	@FindBy(xpath="//*[@id=\"myTabContent\"]/div/ul/div/li[1]/a")
@@ -48,8 +46,6 @@ public class Setting_pom {
 	public static WebElement AddSubSkillButton;
 	@FindBy(id="selectMajorSkill")
 	public static WebElement MajorSkillSelection;
-	@FindBy(id="MS-1C51MF2M5K")
-	public static WebElement MajorSkillSelected;
 	@FindBy(id="subSkillName")
 	public static WebElement EnterSubSkill;
 	@FindBy(xpath="/html/body/div[3]/div/div/div[2]/div/div[3]/div[1]/button")
@@ -97,4 +93,3 @@ public class Setting_pom {
 	@FindBy(xpath="/html/body/div[3]/div/div/div[2]/div/div[8]/div[1]/button")
 	public static WebElement SaveUser;
 }
-
